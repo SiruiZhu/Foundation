@@ -1,0 +1,21 @@
+
+crontab list - Zhu
+
+part1. Using APIs/Data Structures
+
+cron entries:
+
+crontab -e
+0 8 * * * python3 DarkskyAPIScraper.py
+control X
+y
+enter
+
+part2. Using Scraping
+
+cron entries:
+crontab -e
+0 */6 * * * python3 Jiemian.py
+control X
+y
+enter
